@@ -45,7 +45,7 @@ const ListTodos = () => {
               <tr key={todo.id}>
                 <td>{todo.description}</td>
                 <td>
-                  <EditTodo />
+                  <EditTodo todo={todo} />
                 </td>
                 <td>
                   <button
